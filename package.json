@@ -1,0 +1,39 @@
+{
+  "name": "dotenv-process",
+  "version": "0.0.1",
+  "description": "Process env variables before initialization",
+  "main": "lib/main.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha -r mocha.conf.js test/{unit,integration}/*.spec.js",
+    "posttest": "npm run lint",
+    "lint": "standard"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codev0/dotenv-process.git"
+  },
+  "keywords": [
+    "dotenv",
+    "process",
+    "variables"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/codev0/dotenv-process/issues"
+  },
+  "homepage": "https://github.com/codev0/dotenv-process#readme",
+  "dependencies": {
+    "dotenv": "^8.1.0"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.2.1",
+    "sinon": "^7.5.0",
+    "sinon-chai": "^3.3.0"
+  }
+}
